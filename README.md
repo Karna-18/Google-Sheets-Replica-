@@ -1,30 +1,67 @@
-## Google Sheets Replica
-  
-  A spreadsheet editing application built using React.js.
+# Google Sheets Replica - Web Application
 
-## Key Features
+## 📌 Project Overview
+This project is a web-based spreadsheet application that mimics the UI and core functionalities of Google Sheets. It includes features such as cell editing, basic mathematical functions, data validation, and formatting options to enhance user experience.
 
-1. Edit cells and apply various styles like Bold, Italic, Underline, Alignment, Font Family, Font Size, and Colors.
-2. Multiple sheets: Create and edit multiple sheets easily.
-3. Formula Support: Auto-update dependent cells, and remove formulas when editing directly.
-4. Data Import & Export: Convert sheets to JSON and load data from JSON.
-5. Copy and Paste: Copy a single cell, including formulas and styles.
+## 🔥 Features Implemented
+### 1️⃣ Spreadsheet Interface
+✔ Google Sheets-like UI (Toolbar, Formula Bar, Cell Grid)
 
-## Future Enhancements
+✔ Drag-and-Drop functionality for cell content
 
-1. Multi-cell copy-paste functionality.
-2. Support for CSV import/export.
-3. Rework state management using React Context.
-4. Improve performance optimization (useMemo, React.memo).
+✔ Support for bold, italics, font size, and color formatting
 
-## Technical Overview
+✔ Add, delete, and resize rows & columns
 
-Optimized Rendering: Prevents unnecessary re-renders for better performance.
-CSS: Uses Flexbox for layout and some UI tricks for interactive components.
-Formula Parsing: Handles formula evaluation using Infix-to-Postfix conversion and ensures no recursive loops.
+✔ Cell dependencies for formulas 
 
-## Conclusion
-This project is a great way to understand state management, formula processing, and performance optimization in React.
+### 2️⃣ Mathematical Functions
+✔ SUM(range): Adds values in the given range
 
->Let me know if you'd like any further edits! 😊# Google Sheets Clone:
+✔ AVERAGE(range): Computes average of values
 
+✔ MAX(range): Returns the highest value
+
+✔ MIN(range): Returns the lowest value
+
+✔ COUNT(range): Counts numerical values in a range
+
+
+### 3️⃣ Data Quality Functions
+✔ TRIM(text): Removes extra spaces
+
+✔ UPPER(text): Converts text to uppercase
+
+✔ LOWER(text): Converts text to lowercase
+
+✔ REMOVE_DUPLICATES(range): Eliminates duplicate rows
+
+✔ FIND_AND_REPLACE(find, replace, range): Finds and replaces text
+
+
+### 4️⃣ Data Entry & Validation
+✔ Supports numbers, text, and dates
+
+✔ Prevents invalid inputs (e.g., only numbers in numeric cells)
+
+✔ Displays validation messages for incorrect entries
+
+
+## 💻 Tech Stack Used
+| Technology  | Purpose  |
+|-------------|----------|
+| HTML   | Structure of the web application |
+| CSS    | Styling for a clean and responsive UI |
+| JavaScript | Core logic for cell interactions, functions & validation |
+| React.js | For better UI state management |
+
+
+## 🌍 Live Demo
+ Click here to try the live demo - https://google-sheets-replica-hxq1yvngr-karna-ms-projects.vercel.app
+
+
+### 📢 Notes
+- Ensure all JavaScript functions work as expected with live data.
+- If React is used, update the setup steps accordingly.
+
+Developed by Karna M 🚀
